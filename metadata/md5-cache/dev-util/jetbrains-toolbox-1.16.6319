@@ -1,0 +1,12 @@
+DEFINED_PHASES=compile install postinst postrm
+DEPEND=sys-fs/fuse:*
+DESCRIPTION=Manage all your JetBrains Projects and Tools
+EAPI=7
+HOMEPAGE=https://www.jetbrains.com/toolbox/app
+KEYWORDS=~amd64 ~x86
+LICENSE=JetBrainsToolbox
+RDEPEND=sys-fs/fuse:*
+SLOT=0
+SRC_URI=https://download.jetbrains.com/toolbox/jetbrains-toolbox-1.16.6319.tar.gz
+_eclasses_=desktop	7fd20552ce4cc97e8acb132a499a7dd8	eutils	fcb2aa98e1948b835b5ae66ca52868c5	xdg-utils	ff2ff954e6b17929574eee4efc5152ba
+_md5_=654e8125e30e3bf36cf33713abc6605e
