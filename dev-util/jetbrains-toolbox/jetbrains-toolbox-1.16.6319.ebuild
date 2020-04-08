@@ -17,7 +17,7 @@ IUSE=""
 DEPEND="sys-fs/fuse:*"
 RDEPEND="${DEPEND}"
 BDEPEND=""
-QA_PRESTRIPPED="/opt/jetbrains-toolbox/jetbrains-toolbox"
+QA_PRESTRIPPED="/opt/jetbrains-toolbox"
 src_compile() {
         ./"${PN}" --appimage-extract
 }
@@ -26,15 +26,14 @@ src_install() {
         keepdir /opt/jetbrains-toolbox
         insinto /opt/jetbrains-toolbox
         doins jetbrains-toolbox
-        fperms +x /opt/jetbrains-toolbox/jetbrains-toolbox
+        fperms +x /opt/jetbrains-toolbox
 
         newicon squashfs-root/jetbrains-toolbox.svg "${PN}.svg"
-	    sed -i '4c Exec=/usr/bin/jetbrains-toolbox' squashfs-root/${PN}.desktop
 
-        make_wrapper "${PN}" /opt/jetbrains-toolbox/jetbrains-toolbox
+        make_wrapper "${PN}" /opt/jetbrains-toolbox
 
         insinto /usr/share/applications
-        doins "${WORKDIR}/${P}/squashfs-root/${PN}.desktop"
+        doins "${FILESDIR}/${PN}.desktop"
 }
 
 pkg_postinst() {

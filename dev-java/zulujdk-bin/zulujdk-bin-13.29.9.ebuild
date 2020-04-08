@@ -42,7 +42,7 @@ PDEPEND="webstart? ( >=dev-java/icedtea-web-1.6.1:0 )
 RESTRICT="preserve-libs splitdebug"
 QA_PREBUILT="*"
 
-S="${WORKDIR}/zulu14.27.1-ca-jdk14-linux_x64"
+S="${WORKDIR}/zulu${PV}-ca-jdk14-linux_x64"
 
 pkg_pretend() {
 	if [[ "$(tc-is-softfloat)" != "no" ]]; then
@@ -84,7 +84,7 @@ src_install() {
 	dodir "${dest}"
 	cp -pPR * "${ddest}" || die
 
-	use gentoo-vm && java-vm_install-env "${FILESDIR}"/${P}.env.sh
+	use gentoo-vm && java-vm_install-env "${FILESDIR}"/zulujdk-bin-14.env.sh
 	java-vm_set-pax-markings "${ddest}"
 	java-vm_revdep-mask
 	java-vm_sandbox-predict /dev/random /proc/self/coredump_filter
