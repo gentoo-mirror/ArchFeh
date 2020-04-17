@@ -1,0 +1,19 @@
+app-editors/typora 9999: a markdown editor,markdown reader.
+app-editors/visual-studio-code 1.43.2: Code editing. Redefined. Free. Built on open source. Runs everywhere.
+app-i18n/cldr-emoji-annotation 9999: Emoji annotation files in CLDR
+app-i18n/fcitx5 9999: Fcitx5 Next generation of fcitx
+app-i18n/fcitx5-chinese-addons 9999: Addons related to Chinese, including IME previous bundled inside fcitx4.
+app-i18n/fcitx5-gtk 9999: Gtk im module for fcitx5 and glib based dbus client library
+app-i18n/fcitx5-qt 9999: Qt library and IM module for fcitx5
+app-i18n/kcm-fcitx5 9999: KDE configuration module for Fcitx
+app-i18n/libime 9999: Fcitx5 Next generation of fcitx
+dev-java/zulujdk-bin 13.29.9 14.27.1: zulu jdk
+dev-python/pycryptodomex 3.9.7: A self-contained cryptographic library for Python
+dev-util/jetbrains-toolbox 1.16.6319: Manage all your JetBrains Projects and Tools
+games-action/minecraft-launcher 2.1.13509: Official launcher for Minecraft
+kde-misc/latte-dock 9999: Elegant dock, based on KDE Frameworks
+kde-misc/plasma-applet-window-buttons 9999: This is a Plasma 5 applet that shows window buttons in your panels.
+kde-misc/plasma-wallpapers-dynamic 9999: plasma5-wallpapers-dynamic is a simple dynamic wallpaper plugin for KDE Plasma.
+media-sound/musicbox 9999: A sexy command line interface musicbox for NetEase based on Python
+x11-libs/xcb-imdkit 9999: input method development support for xcb
+x11-themes/mcmojave-circle-theme 9999: McMojave-circle icon theme for linux desktops
