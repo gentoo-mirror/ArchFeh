@@ -16,4 +16,6 @@ kde-misc/plasma-applet-window-buttons 9999: This is a Plasma 5 applet that shows
 kde-misc/plasma-wallpapers-dynamic 9999: plasma5-wallpapers-dynamic is a simple dynamic wallpaper plugin for KDE Plasma.
 media-sound/musicbox 9999: A sexy command line interface musicbox for NetEase based on Python
 x11-libs/xcb-imdkit 9999: input method development support for xcb
+x11-terms/termite 9999: A keyboard-centric VTE-based terminal
+x11-terms/vte-ng 9999: An enhanced terminal emulator widget
 x11-themes/mcmojave-circle-theme 9999: McMojave-circle icon theme for linux desktops
