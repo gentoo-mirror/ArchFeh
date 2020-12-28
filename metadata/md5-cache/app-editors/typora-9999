@@ -7,5 +7,5 @@ LICENSE=EULA
 RDEPEND=x11-libs/libXScrnSaver
 SLOT=0
 SRC_URI=https://typora.io/linux/Typora-linux-x64.tar.gz -> typora-9999-linux-x64.tar.gz
-_eclasses_=desktop	8f9bfcc33705104f56748d9dedb3177a	xdg-utils	ff2ff954e6b17929574eee4efc5152ba
+_eclasses_=desktop	7fd20552ce4cc97e8acb132a499a7dd8	xdg-utils	ff2ff954e6b17929574eee4efc5152ba
 _md5_=fed58cd42f44098f6680aae6d8b85707
