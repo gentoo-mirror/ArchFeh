@@ -1,0 +1,14 @@
+DEFINED_PHASES=install postinst
+DEPEND=>=media-libs/libpng-1.2.46 >=x11-libs/gtk+-2.24.8-r1:2 x11-libs/cairo gnome-base/gconf
+DESCRIPTION=Code editing. Redefined. Free. Built on open source. Runs everywhere.
+EAPI=7
+HOMEPAGE=https://code.visualstudio.com
+IUSE=libsecret
+KEYWORDS=~amd64 ~x86
+LICENSE=Microsoft
+RDEPEND=>=media-libs/libpng-1.2.46 >=x11-libs/gtk+-2.24.8-r1:2 x11-libs/cairo gnome-base/gconf libsecret? ( app-crypt/libsecret[crypt] )
+RESTRICT=mirror
+SLOT=0
+SRC_URI=https://go.microsoft.com/fwlink/?LinkID=620884 -> visual-studio-code-1.43.2-amd64.tar.gz
+_eclasses_=eutils	fcb2aa98e1948b835b5ae66ca52868c5
+_md5_=2f22cd5193a4f826383819ded029957d
