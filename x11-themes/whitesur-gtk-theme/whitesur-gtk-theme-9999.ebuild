@@ -30,5 +30,6 @@ src_install() {
 	mkdir -p "${ED}/usr/share/themes"
 	./install.sh \
 	--monterey \
+	--icon gnome \
 	--dest "${ED}/usr/share/themes"
 }
