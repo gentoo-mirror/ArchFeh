@@ -1,0 +1,13 @@
+BDEPEND=>=dev-vcs/git-1.8.2.1[curl]
+DEFINED_PHASES=install unpack
+DEPEND=dev-lang/sassc dev-libs/glib dev-libs/libxml2 x11-libs/gtk+:2 >=x11-libs/gtk+-3.18:3 x11-themes/gtk-engines-murrine
+DESCRIPTION=MacOS Big Sur like theme for Gnome desktops
+EAPI=8
+HOMEPAGE=https://github.com/vinceliuice/WhiteSur-gtk-theme
+INHERIT=git-r3
+LICENSE=MIT
+PROPERTIES=live
+RDEPEND=dev-lang/sassc dev-libs/glib dev-libs/libxml2 x11-libs/gtk+:2 >=x11-libs/gtk+-3.18:3 x11-themes/gtk-engines-murrine
+SLOT=0
+_eclasses_=git-r3	b9ac6f96d2a88edb5b351df634dc5e53
+_md5_=743d3b644ac6470573a66c17826652e1

@@ -1,0 +1,11 @@
+DEFINED_PHASES=install
+DEPEND=dev-lang/sassc dev-libs/glib dev-libs/libxml2 x11-libs/gtk+:2 >=x11-libs/gtk+-3.18:3 x11-themes/gtk-engines-murrine
+DESCRIPTION=MacOS Big Sur like theme for Gnome desktops
+EAPI=8
+HOMEPAGE=https://github.com/vinceliuice/WhiteSur-gtk-theme
+KEYWORDS=~amd64 ~arm ~arm64 ~ppc ~ppc64 ~x86
+LICENSE=MIT
+RDEPEND=dev-lang/sassc dev-libs/glib dev-libs/libxml2 x11-libs/gtk+:2 >=x11-libs/gtk+-3.18:3 x11-themes/gtk-engines-murrine
+SLOT=0
+SRC_URI=https://github.com/vinceliuice/WhiteSur-gtk-theme/archive/refs/tags/2022-02-21.tar.gz
+_md5_=743d3b644ac6470573a66c17826652e1
