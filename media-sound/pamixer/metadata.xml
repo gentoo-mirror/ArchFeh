@@ -2,8 +2,8 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
 	<maintainer type="person">
-		<email>et-8@emiliatrollros.se</email>
-		<name>Emilia Trollros</name>
+		<email>guyu2876@gmail.com</email>
+		<name>ArchFeh</name>
 	</maintainer>
 	<upstream>
 		<bugs-to>https://github.com/cdemoulins/pamixer/issues</bugs-to>
