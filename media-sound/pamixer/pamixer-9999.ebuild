@@ -1,10 +1,12 @@
-# Copyright 1999-2020 Gentoo Authors
+# Copyright 1999-2022 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
-EAPI=7
+EAPI=8
 
 DESCRIPTION="Pulseaudio command line mixer."
 HOMEPAGE="https://github.com/cdemoulins/pamixer"
+
+inherit meson
 
 if [[ ${PV} == *9999 ]]; then
 	inherit git-r3
@@ -20,12 +22,9 @@ SLOT="0"
 IUSE=""
 
 RDEPEND="
-	dev-libs/boost
-	media-sound/pulseaudio[alsa]"
+	dev-libs/cxxopts
+	media-sound/pulseaudio
+"
 
 DEPEND="${RDEPEND}"
 
-src_install() {
-	dobin ${PN}
-	dodoc README.rst
-}
