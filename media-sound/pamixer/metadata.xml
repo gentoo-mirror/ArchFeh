@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>et-8@emiliatrollros.se</email>
+		<name>Emilia Trollros</name>
+	</maintainer>
+	<upstream>
+		<bugs-to>https://github.com/cdemoulins/pamixer/issues</bugs-to>
+		<remote-id type="github">cdemoulins/pamixer</remote-id>
+	</upstream>
+	<longdescription lang="en">
+		Pulseaudio command-line mixer like amixer.
+	</longdescription>
+	<longdescription lang="sv">
+		Pulseaudio kommandoradsblandare som amixer.
+	</longdescription>
+</pkgmetadata>
