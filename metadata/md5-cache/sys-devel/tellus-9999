@@ -1,0 +1,13 @@
+BDEPEND=dev-vcs/git dev-util/cmake sys-devel/make dev-lang/go dev-cpp/nlohmann_json dev-libs/libnl >=dev-vcs/git-1.8.2.1[curl]
+DEFINED_PHASES=compile install unpack
+DESCRIPTION=Host Intrusion Detection and Prevention System Based on Kernel Module
+EAPI=8
+HOMEPAGE=https://github.com/lanthora/tellus
+INHERIT=git-r3
+KEYWORDS=~amd64 ~arm ~arm64
+LICENSE=GPL-2
+PROPERTIES=live
+RDEPEND=sys-kernel/dkms
+SLOT=0
+_eclasses_=git-r3	b9ac6f96d2a88edb5b351df634dc5e53
+_md5_=387f9e7812718e3c034fc392e5a7c78d
