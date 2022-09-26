@@ -1,3 +1,4 @@
 media-sound/mpdris2 9999: An implementation of the MPRIS 2 interface as a client for MPD
 media-sound/pamixer 9999: Pulseaudio command line mixer.
+sys-devel/tellus 9999: Host Intrusion Detection and Prevention System Based on Kernel Module
 x11-themes/whitesur-gtk-theme 2022.02.21 9999: MacOS Big Sur like theme for Gnome desktops
